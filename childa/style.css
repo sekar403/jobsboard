@@ -1,0 +1,32 @@
+/*
+ Theme Name:   TT - Child
+ Theme URI:    https://www.smartzoz.com/
+ Description:  A child theme 
+ Author:       A Sekar
+ Author URI:   https://www.smartzoz.com
+ Template:     newspaperss
+ Version:      1.0.0
+*/
+ 
+@import url("../wp-magazine/style.css");
+a.titlejb img {
+    max-width: 100px;
+}
+a.titlejb span {
+    display: block;
+}
+a.buttondis {
+padding: 5px;
+background-color: #01bcd4;
+margin: 6px 0;
+display: block;
+text-align: center;
+color: #fff;
+border-radius: 5px;
+border: 1px solid #0bdaf5;
+transition: 0.2s;
+}
+a.buttondis:hover {
+box-shadow: 2px 2px 3px rgba(0,0,0,0.24);
+transition: 0.2s;
+}
