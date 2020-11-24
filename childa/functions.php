@@ -10,17 +10,3 @@ if ( current_user_can('edit_files') ) {
 }
 
 
-
-
-
-
-
-
-
-
-function handle_get_all( $data ) {
-    global $wpdb;
-    $query = "SELECT * FROM wp_formt";
-    $list = $wpdb->get_results($query);
-    return $list;
-}
